@@ -6,4 +6,7 @@
     <string name="label_first">First Page</string>
     <string name="label_second">Second Page</string>
     <string name="label_third">Third Page</string>
+    <string name="btn_label1">赞成</string>
+    <string name="btn_label2">反对</string>
+    <string name="btn_label3">弃权</string>
 </resources>
