@@ -80,7 +80,7 @@ public class VoteActivity extends AppCompatActivity {
         byte[] data = new byte[1024];
         int len = 0;
         try {
-            while((len = inputStream.read(data)) != -1) {
+            while ((len = inputStream.read(data)) != -1) {
                 byteArrayOutputStream.write(data, 0, len);
             }
         } catch (IOException e) {

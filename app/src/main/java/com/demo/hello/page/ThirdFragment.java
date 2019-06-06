@@ -31,10 +31,10 @@ public class ThirdFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        String tiger="虎（学名：Panthera tigris ；英文名：Tiger）： 大型猫科动物；毛色浅黄或棕黄色，满身黑"
-         +"色横纹；头圆、耳短，耳背面黑色，中央有一白斑甚显著；四肢健壮有力；尾粗长，具黑色环纹，尾端黑色。\n"
-         +"老虎是典型的山地林栖动物，由南方的热带雨林、常绿阔叶林，以至北方的落叶阔叶林和针阔叶混交林，"
-         +"都能很好的生活。在中国东北地区，也常出没于山脊、矮林灌丛和岩石较多或砾石塘等山地，以利于捕食。";
+        String tiger = "虎（学名：Panthera tigris ；英文名：Tiger）： 大型猫科动物；毛色浅黄或棕黄色，满身黑"
+                + "色横纹；头圆、耳短，耳背面黑色，中央有一白斑甚显著；四肢健壮有力；尾粗长，具黑色环纹，尾端黑色。\n"
+                + "老虎是典型的山地林栖动物，由南方的热带雨林、常绿阔叶林，以至北方的落叶阔叶林和针阔叶混交林，"
+                + "都能很好的生活。在中国东北地区，也常出没于山脊、矮林灌丛和岩石较多或砾石塘等山地，以利于捕食。";
         TextView tv = getView().findViewById(R.id.tv3);
         tv.setText(tiger);
     }
